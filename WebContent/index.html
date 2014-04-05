@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Boris Store</title>
+</head>
+<body>
+	<form id="form1" method="post"
+		action="/FriddlingFormJSP/mainmenuresponder.do">
+
+		<table style="width: 100%;">
+
+			<tr>
+				<td style="width: 100%" align="center">Welcome to Boris Store</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>Please select from the options</h3>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td><select id="menuChoice" name="menuChoice">
+
+						<option id="1" value="1">List Items</option>
+						<option id="2" value="2">Add a new item</option>
+						<option id="3" value="3">Delete a item</option>
+
+
+				</select></td>
+			</tr>
+
+
+			<tr>
+				<td><input type="checkbox" id="adminoptions" name="optionDatabase" value="useDB" />Use Database<br> <input
+					type="checkbox" id="adminoptions" name="optionEmail" value="sendEmail" />Send Confirmation<br></td>
+
+			</tr>
+
+			<tr>
+				<td><input name="chooser" type="submit" value="Choose" /></td>
+			</tr>
+
+
+		</table>
+
+
+
+
+	</form>
+
+</body>
+</html>
